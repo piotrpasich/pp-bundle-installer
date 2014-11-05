@@ -1,0 +1,13 @@
+{
+    "name": "pp/installer-bundle",
+    "description": "Installer Bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Pasich",
+            "email": "piotr.pasich@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
