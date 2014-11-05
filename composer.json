@@ -9,5 +9,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": { "PP\\BundleInstaller": "" }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "PP\\Composer\\ScriptHandler::buildParameters"
+        ]
+    },
+    "target-dir": "PP/BundleInstaller"
 }
